@@ -93,9 +93,9 @@ async def start(bot, update):
         InlineKeyboardButton('🔰 MOVIE GROUP 🔰', url ='https://t.me/joinchat/J2jyXUN5I3hlODM1')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CROSS_PROMOTER')
-    ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
-    ]]
+     ]]
+    
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
